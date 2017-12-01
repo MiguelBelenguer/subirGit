@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" opacity="0.61" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #795548;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="224.0" fitWidth="294.0" layoutX="153.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@spider.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="21.0" layoutY="69.0" prefHeight="17.0" prefWidth="119.0" text="FOTO DE PERFIL" textFill="#f8f4f4" />
+      <Label layoutX="31.0" layoutY="258.0" text="Apellidos" textFill="#f2f2f2" />
+      <Label layoutX="31.0" layoutY="215.0" text="Nombre" textFill="#fffdfd" />
+      <Label layoutX="31.0" layoutY="335.0" text="Direccion" textFill="#f8f8f8" />
+      <Label layoutX="31.0" layoutY="298.0" text="Numero de telefono" textFill="#fcfafa" />
+      <Label fx:id="mytitle" layoutX="279.0" layoutY="25.0" text="PERFIL">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="300.0" layoutY="211.0" />
+      <TextField layoutX="300.0" layoutY="254.0" />
+      <TextField layoutX="300.0" layoutY="294.0" />
+      <TextField layoutX="300.0" layoutY="331.0" />
+   </children>
+</AnchorPane>

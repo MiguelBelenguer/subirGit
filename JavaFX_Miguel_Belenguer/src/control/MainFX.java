@@ -22,7 +22,9 @@ import javafx.scene.control.Control;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
-
+/*
+ *
+ */
 public class MainFX extends Application {
 	 private Stage stagePrincipal;
 	    private AnchorPane rootPane;
